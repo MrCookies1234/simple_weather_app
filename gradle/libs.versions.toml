@@ -37,6 +37,7 @@ espresso-core = { module = 'androidx.test.espresso:espresso-core', version.ref =
 gson = { module = 'com.google.code.gson:gson', version.ref = 'gson' }
 hilt = { module = 'com.google.dagger:hilt-android', version.ref = 'hilt' }
 hilt-compiler = { module = 'com.google.dagger:hilt-compiler', version.ref = 'hilt'}
+hilt-gradle = { module = 'com.google.dagger:hilt-android-gradle-plugin', version.ref = 'hilt' }
 hilt-testing = { module = 'com.google.dagger:hilt-android-testing', version.ref = 'hilt' }
 junit = { module = 'junit:junit', version.ref = 'junit' }
 junit-ext = { module = 'androidx.test.ext:junit', version.ref = 'junit_ext' }
