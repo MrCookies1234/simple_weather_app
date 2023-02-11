@@ -52,10 +52,25 @@ dependencies {
     implementation libs.androidx.compose.material
     implementation libs.androidx.compose.ui
     implementation libs.androidx.compose.ui.preview
+
     testImplementation libs.junit
     androidTestImplementation libs.junit.ext
     androidTestImplementation libs.espresso.core
     androidTestImplementation libs.androidx.compose.ui.test
     debugImplementation libs.androidx.compose.ui.tooling
     debugImplementation libs.androidx.compose.ui.test.manifest
+
+    //Gson
+    implementation libs.gson
+
+    //Hilt
+    implementation libs.hilt
+    annotationProcessor libs.hilt.compiler
+    androidTestImplementation libs.hilt.testing
+    androidTestAnnotationProcessor libs.hilt.compiler
+    testImplementation libs.hilt.testing
+    testAnnotationProcessor libs.hilt.compiler
+
+    //Retrofit
+    implementation libs.retrofit
 }
